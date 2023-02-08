@@ -1,0 +1,122 @@
+
+/* header starts here */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Itim', cursive;
+}
+
+.container {
+    width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    /*top o bottom e kono margin thakbe nah r 
+                     auto mane jototuku space niye majhkhan e asha jai*/
+    padding: 20px;
+}
+
+.prof-img {
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+ color: #11999e;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none ;
+}
+/* header ends here */
+
+
+/* personal starts here */
+
+.content{
+    margin: 30px;
+}
+
+.left{
+    width: 30%;
+   float: left;
+}
+.right{
+    width: 70% ;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px; 
+    border-bottom: none; 
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* edu starts here */
+
+
+.edu-left{
+    float: left;
+    width: 45%;
+}
+
+.edu-right{
+    float: right;
+    width: 45%;
+}
+
+
+/* edu ends here */
+
+/* footer starts here */
+
+.footer-style{
+    background-color:rgba(33, 33, 33, 0.768);
+    text-align: center;
+    padding: 10px;
+}
+.footer-style a{
+   
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer-style p{
+   
+    color: white;
+   margin-top: 20px;
+}
+
+/* footer ends here */
